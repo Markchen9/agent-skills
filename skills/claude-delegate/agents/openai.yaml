@@ -1,0 +1,6 @@
+interface:
+  display_name: "Claude Delegate"
+  short_description: "Prepare a manual Claude Code handoff"
+  default_prompt: "Use $claude-delegate to create a detailed, execution-ready prompt or handoff file for Claude Code or another coding agent. Do not invoke the agent directly."
+policy:
+  allow_implicit_invocation: false

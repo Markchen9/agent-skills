@@ -1,0 +1,3 @@
+display_name: Skill Repository
+short_description: Manage a public GitHub repository of Codex skills.
+default_prompt: Help me create, organize, validate, publish, and version a public Codex skill repository.

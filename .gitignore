@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+*.7z
+!claude-delegate.7z
+*.zip
+*.tar
+*.tar.gz
+tmp/
+dist/
+node_modules/
+.env
+.env.*
