@@ -121,10 +121,6 @@ Common locations:
 
 Project-local skills are commonly stored in folders such as `.claude/skills/`, `.agents/skills/`, or `.github/skills/`, depending on the tool.
 
-## Source archives
-
-`archives/claude-delegate.7z` is kept as the original uploaded archive for `skills/claude-delegate/`.
-
 ## License
 
 MIT
