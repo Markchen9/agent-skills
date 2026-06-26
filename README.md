@@ -1,8 +1,8 @@
-# Codex Skills
+# Agent Skills
 
-Personal skill collection for Codex-style agents.
+Personal skill collection for AI coding agents.
 
-This repository is public so other people can read, copy, install, and improve the skills here. Each skill is a small folder with a required `SKILL.md` file and optional supporting files.
+This repository is public so other people can read, copy, install, and improve the skills here. The skills are meant to be useful across agent tools such as Claude Code, Codex, and other compatible coding agents.
 
 ## Repository layout
 
@@ -19,14 +19,14 @@ This repository is public so other people can read, copy, install, and improve t
 Clone the repository:
 
 ```bash
-git clone https://github.com/Markchen9/codex-skills.git
-cd codex-skills
+git clone https://github.com/Markchen9/agent-skills.git
+cd agent-skills
 ```
 
-Install one skill into your local Codex skills folder:
+Install one skill into a local skills folder:
 
 ```bash
-./scripts/install-skill.sh skill-repository ~/.codex/skills
+./scripts/install-skill.sh skill-repository ~/.agent-skills
 ```
 
 Available skills:
@@ -39,7 +39,7 @@ Available skills:
 Or copy a skill manually:
 
 ```bash
-cp -R skills/skill-repository ~/.codex/skills/
+cp -R skills/skill-repository ~/.agent-skills/
 ```
 
 ## Create a new skill

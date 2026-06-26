@@ -1,6 +1,6 @@
 # Repository Instructions
 
-This repository stores public Codex skills.
+This repository stores public agent skills.
 
 ## Communication
 

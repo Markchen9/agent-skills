@@ -1,6 +1,6 @@
 ---
 name: skill-repository
-description: Use when creating, organizing, validating, publishing, or versioning a public GitHub repository of Codex skills.
+description: Use when creating, organizing, validating, publishing, or versioning a public GitHub repository of agent skills for Claude Code, Codex, or compatible coding agents.
 metadata:
   author: Markchen9
   version: "0.1.0"
@@ -8,7 +8,7 @@ metadata:
 
 # Skill Repository
 
-Use this skill when the task is to manage a public collection of skills in GitHub.
+Use this skill when the task is to manage a public collection of agent skills in GitHub.
 
 ## Success criteria
 
