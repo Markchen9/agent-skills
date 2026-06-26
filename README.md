@@ -43,7 +43,7 @@ Available skills:
 
 | Skill | Purpose |
 | --- | --- |
-| `claude-delegate` | Prepare a manual prompt or handoff file for Claude Code or a compatible coding agent. |
+| `claude-delegate` | Prepare a manual prompt or handoff file for Claude Code or a compatible coding agent. Originally authored by Eric Chen. |
 | `skill-repository` | Manage this public skill repository. |
 
 Or copy a skill manually into the folder your agent reads:
@@ -124,3 +124,5 @@ Project-local skills are commonly stored in folders such as `.claude/skills/`, `
 ## License
 
 MIT
+
+See `NOTICE.md` for third-party authorship notes.
