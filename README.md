@@ -23,10 +23,20 @@ git clone https://github.com/Markchen9/agent-skills.git
 cd agent-skills
 ```
 
-Install one skill into a local skills folder:
+Install `claude-delegate` into the skills folder used by your agent:
 
 ```bash
-./scripts/install-skill.sh skill-repository ~/.agent-skills
+# Claude Code or compatible tools that read ~/.claude/skills
+./scripts/install-skill.sh claude-delegate ~/.claude/skills
+
+# Codex
+./scripts/install-skill.sh claude-delegate ~/.codex/skills
+
+# VS Code / Copilot agent skills
+./scripts/install-skill.sh claude-delegate ~/.copilot/skills
+
+# Other compatible agents
+./scripts/install-skill.sh claude-delegate ~/.agents/skills
 ```
 
 Available skills:
@@ -36,10 +46,10 @@ Available skills:
 | `claude-delegate` | Prepare a manual prompt or handoff file for Claude Code or a compatible coding agent. |
 | `skill-repository` | Manage this public skill repository. |
 
-Or copy a skill manually:
+Or copy a skill manually into the folder your agent reads:
 
 ```bash
-cp -R skills/skill-repository ~/.agent-skills/
+cp -R skills/claude-delegate ~/.claude/skills/
 ```
 
 ## Create a new skill
@@ -97,9 +107,23 @@ skills/example-skill/
 
 Use `references/` for longer guidance, `scripts/` for repeatable commands, and `assets/` for templates or media that the skill uses.
 
+## Compatibility
+
+The shared skill format is a folder with `SKILL.md` and optional supporting files. Different agents may read skills from different directories, so install the folder into the location required by your tool.
+
+Common locations:
+
+| Tool | Typical personal skill folder |
+| --- | --- |
+| Claude Code / Claude-compatible tools | `~/.claude/skills/` |
+| Codex | `~/.codex/skills/` |
+| VS Code / Copilot | `~/.copilot/skills/` or `~/.agents/skills/` |
+
+Project-local skills are commonly stored in folders such as `.claude/skills/`, `.agents/skills/`, or `.github/skills/`, depending on the tool.
+
 ## Source archives
 
-`claude-delegate.7z` is kept as the original uploaded archive for `skills/claude-delegate/`.
+`archives/claude-delegate.7z` is kept as the original uploaded archive for `skills/claude-delegate/`.
 
 ## License
 
